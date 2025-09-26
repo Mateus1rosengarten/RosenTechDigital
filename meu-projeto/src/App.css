@@ -1,0 +1,51 @@
+/* Text Highligthed */
+.highlight-marker {
+  position: relative;
+  background: #ffaa00;
+  border-radius: 0.25rem;
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  display: inline-block;
+}
+
+.highlight-marker::before {
+  .highlighted-text {
+    position: relative;
+    display: inline-block;
+    padding: 0 4px;
+  }
+
+  .highlighted-text::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    width: 100%;
+    height: 40%;
+    background: #ffaa00aa;
+    transform: rotate(-2deg);
+    z-index: -1;
+    border-radius: 10px;
+  }
+}
+
+/* ContactForm Background */
+
+.bg-gradient-texture {
+  background-image: linear-gradient(125deg, #ffaa00 0%, #000000 80%),
+    url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+  background-repeat: repeat;
+  background-blend-mode: overlay;
+}
+
+/* Carousel */
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 auto;
+}
