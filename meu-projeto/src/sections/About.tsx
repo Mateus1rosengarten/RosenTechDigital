@@ -9,7 +9,7 @@ const About: React.FC = () => {
       className="relative z-10 flex flex-col w-full px-6 py-8 bg-background sm:gap-10 sm:px-10 sm:py-20 md:px-12 xl:px-8 2xl:px-28"
     >
       <h2 className="sm:mx-none | mx-auto whitespace-nowrap font-varela text-2xl text-foreground sm:text-5xl">
-        SOBRE A ROSENTECH
+        SOBRE O GRUPO M2
       </h2>
       <div className="flex flex-col gap-6 lg:flex-row">
         <div className="flex flex-col lg:flex-row"></div>
@@ -20,25 +20,27 @@ const About: React.FC = () => {
           transition={{ duration: 0.8, ease: "easeOut" }}
           viewport={{ once: true }}
         >
-          <p className="text-justify font-inter text-base text-foreground sm:text-xl lg:!leading-relaxed xl:mt-8 xl:text-2xl xl:tracking-wide 2xl:!leading-loose">
-            Vivemos uma era digital em que todo negócio — seja um comércio local
-            ou uma grande empresa — está deixando de lucrar ao não investir em
-            <span className={`${highlightClass}`}>
-              presença online, automação e marketing estratégico.
+          <div className="text-justify font-inter text-base text-foreground sm:text-xl xl:text-2xl xl:tracking-wide 2xl:leading-loose">
+            <span className="block leading-relaxed">
+              O Grupo M2 nasceu da necessidade de compreender o negócio dentro
+              dos marketplaces de forma completa e estratégica. Estar presente
+              nas plataformas não é suficiente quando não há um gerenciamento
+              capaz de entregar resultados reais e consistentes. Da mesma forma,
+              resultados sem gestão não se sustentam, é como pilotar uma Ferrari
+              sem destino definido.
             </span>
-            &nbsp;A ROSENTECH nasceu para preencher essa lacuna, oferecendo
-            soluções inteligentes e acessíveis que ajudam empresas a se
-            destacarem no ambiente digital e alcançarem todo o seu potencial.
-            Nossa missão é fazer seu negócio prosperar, atrair mais clientes e
-            gerar resultados concretos. Dominamos as tecnologias mais modernas
-            do mercado, aplicando as melhores práticas em desenvolvimento web,
-            aplicativos, automação, SEO, campanhas digitais e produção
-            audiovisual . Combinamos criatividade, performance e estratégia para
-            oferecer soluções completas e sob medida para cada cliente.
-            Acreditamos em parcerias de longo prazo. Nosso compromisso vai muito
-            além de entregar um serviço: queremos caminhar ao seu lado,
-            construindo soluções que evoluem junto com o seu negócio.
-          </p>
+
+            <span className="block leading-relaxed">
+              Foi a partir dessa visão que o Grupo M2 surgiu: da união de duas
+              frentes que funcionam em perfeita harmonia: vender em escala e
+              gerir o negócio com inteligência.
+            </span>
+
+            <span className="block leading-relaxed">
+              É sobre crescer com sustentabilidade e decisões orientadas. Nosso
+              trabalho vai muito além de vender o seu produto. É ir muito além.
+            </span>
+          </div>
         </motion.div>
 
         <motion.div

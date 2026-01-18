@@ -9,15 +9,15 @@ const Logo: React.FC<LogoProps> = ({ customClass }) => {
         className={`flex flex-col justify-center items-center ${customClass} `}
       >
         <img
-          src="/images/logo/icon.png"
+          src="/images/logo/logom2.png"
           alt="Logo icone"
-          className="w-14 h-10 sm:w-20 sm:h-14 md:w-22 md:h-18 lg:w-28 lg:h-20"
+          className="w-14 h-10 sm:w-20 sm:h-14 md:w-22 md:h-18 lg:w-32 lg:h-24"
         />
-        <img
+        {/* <img
           src="/images/logo/justtext.png"
           alt="text-logo"
           className="w-8 sm:w-10 md:w-12 lg:w-16"
-        ></img>
+        ></img> */}
       </div>
     </a>
   );

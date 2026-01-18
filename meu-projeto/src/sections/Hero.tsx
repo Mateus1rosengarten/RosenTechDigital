@@ -19,7 +19,7 @@ const Hero: React.FC = () => {
       >
         <div className="h-20 overflow-hidden">
           <Typewriter
-            words={["EVOLUA", "LUCRE", "EXPANDA"]}
+            words={["(EVOLUA)²", "(LUCRE)²", "(EXPANDA)²"]}
             loop={0}
             cursor={false}
             typeSpeed={100}

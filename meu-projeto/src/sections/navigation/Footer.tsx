@@ -75,8 +75,7 @@ const Footer: React.FC = () => {
       </div>
 
       <p className="text-center text-xs text-foreground/50 mt-8">
-        © {new Date().getFullYear()} Rosentech Solutions. Todos os direitos
-        reservados.
+        © {new Date().getFullYear()} Grupo M2. Todos os direitos reservados.
       </p>
     </motion.footer>
   );

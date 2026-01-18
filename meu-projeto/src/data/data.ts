@@ -25,171 +25,170 @@ export const techsCarouselItems: TechCarouselIcon[] = [
 
 // PLANS SECTION
 
-export const liteInclude: FeaturesIncluded = [
+export const silverInclude: FeaturesIncluded = [
   {
-    title: "Design e Criação de website desktop + mobile (até 4 páginas)",
+    title:
+      "Gerência completa das principais plataformas de marketplace, incluindo todos os serviços disponíveis no plano M2 Essencial.",
     description:
       "Desenvolvimento completo de um site moderno, responsivo e otimizado, com até 4 páginas personalizadas para destacar sua marca. Não inclui e-commerce",
   },
   {
-    title: "Registro de domínio exclusivo incluído",
+    title: "Diagnóstico claro e preciso das necessidades reais do seu negócio",
     description:
       "Registro e configuração de um domínio profissional (.com, .com.br, etc.) incluso no pacote, garantindo presença online personalizada.",
   },
   {
-    title: "SEO para ranqueamento no Google + Gestão Google Business",
+    title:
+      "Mapeamento dos pontos fortes e as áreas que necessitam de uma atenção em seu negócio",
     description:
       "Configuração estratégica de SEO para melhorar o posicionamento nos mecanismos de busca, além da otimização e gestão do perfil da sua empresa no Google.",
   },
   {
-    title: "Manutenção, Suporte técnico e Relatórios",
+    title:
+      "Construção de um plano estratégico que promove a transição do operacional para uma atuação gerencial no negócio",
     description:
       "Suporte contínuo com manutenção técnica, correções e melhorias, além de um relatório mensal sobre o desempenho do site e suporte técnico dedicado para suas dúvidas.",
   },
   {
-    title: "Ensaio Fotográfico e Edição Profissional (a cada 8 meses)",
+    title:
+      "Execução do plano estratégico, com análise constante do mercado para implementação de estratégias garantindo resultados de curto a longo prazo",
+    description: "sadasd",
+  },
+  {
+    title:
+      "Definição de metas reais a serem alcançadas, buscando crescimento sustentável com base em dados gerenciais e ferramentas de IA",
     description:
       "Sessão fotográfica com edição profissional para destacar seu negócio e produtos no inicio do plano (1x)",
   },
 ];
 
-export const liteNotInclude: FeaturesNotIncluded = [
-  "Estratégias avançadas de SEO e Google Ads",
-  "Gestão de marketing digital para redes sociais(post + storys)",
-  "Consultoria e automação digital sob medida",
-  "Campanhas digitais avançadas de publicidade e marketing",
-  "Gestão completa de branding com análise de resultados",
-  "Produção personalizada de áudio e audiovisual",
-];
+// export const liteNotInclude: FeaturesNotIncluded = [
+//   "Estratégias avançadas de SEO e Google Ads",
+//   "Gestão de marketing digital para redes sociais(post + storys)",
+//   "Consultoria e automação digital sob medida",
+//   "Campanhas digitais avançadas de publicidade e marketing",
+//   "Gestão completa de branding com análise de resultados",
+//   "Produção personalizada de áudio e audiovisual",
+// ];
 
-export const silverInclude: FeaturesIncluded = [
+export const liteInclude: FeaturesIncluded = [
   {
-    title: "Design e Criação de website desktop + mobile (até 8 páginas)",
+    title:
+      "Presença nos maiores marketplaces, como Mercado Livre, Magalu, Shopee, Shein entre outros",
     description:
       "Desenvolvimento completo de um site moderno, responsivo e otimizado, com até 8 páginas personalizadas para destacar sua marca. Não inclui e-commerce",
   },
   {
-    title: "Registro de domínio exclusivo incluído",
+    title: "Registro e catalogo de forma estratégica dos produtos",
     description:
       "Registro e configuração de um domínio profissional (.com, .com.br, etc.) incluso no pacote, garantindo presença online personalizada.",
   },
   {
-    title: "SEO para ranqueamento no Google + Gestão Google Business",
+    title:
+      "Criação de modelo de crescimento personalizado a partir de análise e dados do mercado",
     description:
       "Configuração estratégica de SEO para melhorar o posicionamento nos mecanismos de busca, além da otimização e gestão do perfil da sua empresa no Google.",
   },
   {
-    title: "Manutenção, Suporte técnico e Relatórios",
+    title: "Modelos de precificação e diferenciação frente aos concorrentes",
     description:
       "Suporte contínuo com manutenção técnica, correções e melhorias, além de um relatório mensal sobre o desempenho do site e suporte técnico dedicado para suas dúvidas.",
   },
   {
-    title: "Ensaio Fotográfico e Edição Profissional (a cada 3 meses)",
+    title:
+      "Estratégias para construção de reputação e aumento de avaliações positivas",
     description:
       "Sessões fotográficas sazonais com edição profissional para atualizar o visual do seu site e redes sociais.",
   },
   {
-    title: "Estratégias avançadas de SEO e GoogleAds",
+    title:
+      "Gestão e acompanhamento de pedidos, trocas e suporte ao consumidor final",
     description:
-      "Planejamento e execução de campanhas publicitárias com foco em performance, combinando SEO e anúncios no Google Ads para atrair clientes qualificados com maior retorno sobre investimento",
+      "Sessões fotográficas sazonais com edição profissional para atualizar o visual do seu site e redes sociais.",
   },
+
   {
-    title: "Gestão de marketing digital para redes sociais (post + storys)",
+    title: "Relatórios de desempenho e faturamento",
     description:
-      "Criação, planejamento e publicação de até 12 conteúdos mensais otimizados para redes sociais, com foco em engajamento e alcance.",
+      "Sessões fotográficas sazonais com edição profissional para atualizar o visual do seu site e redes sociais.",
+  },
+
+  {
+    title: "Suporte dedicado via WhatsApp",
+    description:
+      "Sessões fotográficas sazonais com edição profissional para atualizar o visual do seu site e redes sociais.",
   },
 ];
 
-export const silverNotInclude: FeaturesNotIncluded = [
-  "Consultoria e automação digital sob medida",
-  "Campanhas digitais avançadas de publicidade e marketing",
-  "Gestão completa de branding com análise de resultados",
-  "Produção personalizada de áudio e audiovisual",
-];
+// export const silverNotInclude: FeaturesNotIncluded = [
+//   "Consultoria e automação digital sob medida",
+//   "Campanhas digitais avançadas de publicidade e marketing",
+//   "Gestão completa de branding com análise de resultados",
+//   "Produção personalizada de áudio e audiovisual",
+// ];
 
 export const goldInclude: FeaturesIncluded = [
   {
-    title: "Design e Criação de website desktop + mobile (até 12 páginas)",
+    title:
+      "Gerência completa das principais plataformas de marketplace, incluindo todos os serviços disponíveis no plano M2 Essencial.",
     description:
       "Desenvolvimento completo de um site moderno, responsivo e otimizado, com até 12 páginas personalizadas para destacar sua marca. Não inclui e-commerce",
   },
   {
-    title: "Registro de domínio exclusivo incluído",
+    title:
+      "Consultoria Financeira completa e continua incluindo todos os serviços disponíveis no plano M2 Turbo",
     description:
       "Registro e configuração de um domínio profissional (.com, .com.br, etc.) incluso no pacote, garantindo presença online personalizada.",
   },
   {
-    title: "SEO para ranqueamento no Google + Gestão Google Business",
+    title:
+      "Gestão de redes sociais, garantindo presença ativa onde seu público está",
     description:
       "Configuração estratégica de SEO para melhorar o posicionamento nos mecanismos de busca, além da otimização e gestão do perfil da sua empresa no Google.",
   },
   {
-    title: "Manutenção, Suporte técnico e Relatórios",
+    title:
+      "Criação de sites com otimização para buscas, fortalecendo a credibilidade da sua empresa",
     description:
       "Suporte contínuo com manutenção técnica, correções e melhorias, além de um relatório mensal sobre o desempenho do site e suporte técnico dedicado para suas dúvidas.",
   },
   {
-    title: "Ensaio Fotográfico e Edição Profissional (a cada 2 meses)",
+    title:
+      "Desenvolvimento de automações digitais para facilitar atendimentos e processos, tornando a operação mais rápida, organizada e eficiente.",
     description:
       "Sessões fotográficas bimestrais com edição profissional para manter sua comunicação visual sempre atualizada e de alta qualidade.",
   },
   {
-    title: "Estratégias avançadas de SEO e GoogleAds",
+    title:
+      "Estratégias de autoridade da marca, revisando identidade visual e posicionamento para consolidar seu negocio.",
     description:
       "Planejamento e execução de campanhas publicitárias com foco em performance, combinando SEO e anúncios no Google Ads para atrair clientes qualificados com maior retorno sobre investimento.",
-  },
-  {
-    title: "Gestão de marketing digital para redes sociais (post/story)",
-    description:
-      "Criação, planejamento e publicação de até 24 conteúdos mensais otimizados para redes sociais, com foco em engajamento e alcance.",
-  },
-  {
-    title: "Consultoria e automação digital sob medida",
-    description:
-      "Diagnóstico completo do seu negócio e aplicação de ferramentas de automação para melhorar a eficiência e os resultados das suas estratégias digitais.",
-  },
-  {
-    title: "Campanhas digitais avançadas de publicidade e marketing",
-    description:
-      "Elaboração de campanhas personalizadas com foco em vendas, engajamento e fortalecimento da marca em diversos canais digitais.",
-  },
-  {
-    title: "Gestão completa de branding com análise de resultados",
-    description:
-      "Cuidado estratégico com a sua marca, desde o posicionamento visual até a comunicação, com análises de impacto e melhorias constantes.",
-  },
-  {
-    title: "Produção personalizada de áudio e audiovisual",
-    description:
-      "Criação de trilhas sonoras, locuções, vídeos institucionais e promocionais com identidade única e profissional.",
   },
 ];
 
 export const planCards: PlanCardData[] = [
   {
-    title: "LITE",
-    oldPrice: "598",
-    newPrice: "499",
+    title: "M2 ESSENCIAL",
+    oldPrice: "1200",
+    newPrice: "980",
     description:
-      "Plano ideal para começar sua presença digital com um site responsivo, domínio incluso, SEO para ranqueamento no Google, suporte técnico contínuo e ensaio fotográfico profissional para destacar sua marca com qualidade.",
+      "Mais do que simplesmente anunciar: você passa a atuar nos principais marketplaces com estratégia, posicionamento e autoridade, construindo base de clientes e faturamento sustentável.",
     featuresIncluded: liteInclude,
-    featuresNotIncluded: liteNotInclude,
   },
   {
-    title: "SILVER",
+    title: "M2 TURBO",
     oldPrice: "1199",
     newPrice: "999",
     description:
-      "Além de tudo oferecido no plano Lite, a assinatura Silver amplia sua presença com estratégias avançadas de SEO e Google ADS , campanhas de anúncios de alta conversao e gestão ativa nas redes sociais.",
+      "Além de tudo incluido no MarketPlate Essential, você passa a ter uma experiencia integrada do negócio, unindo operação e financeiro. Com gestão centralizada e consultoria direcionada.",
     featuresIncluded: silverInclude,
-    featuresNotIncluded: silverNotInclude,
   },
   {
-    title: "GOLD",
+    title: "M2 ELITE",
     oldPrice: "1799",
     newPrice: "1499",
     description:
-      "Com todos os benefícios dos planos anteriores, o Pro traz uma solução completa: automações inteligentes, campanhas digitais estratégicas, rebranding profissional e produção audiovisual completa",
+      "Gestão completa do seu negócio, atuando em múltiplas frentes e centralizando tudo em um controle integrado. Unimos dados  e transformamos em estratégia e execução prática,",
     featuresIncluded: goldInclude,
   },
 ];
@@ -228,10 +227,10 @@ export const serviceCardVariants: Variants = {
 
 export const serviceCards: ServiceCardProps[] = [
   {
-    image: "/images/serviceCard/web.jpeg",
-    title: "Criação de Website",
+    image: "/images/serviceCard/marketplace.png",
+    title: "Gerenciamento Marketplace",
     description:
-      "Crie um site exclusivo para seu negócio atraindo clientes, impulsionando suas vendas e gerando lucros",
+      "Esteja nas principais plataformas de marketplace com uma gestão profissional que otimiza anúncios, impulsiona vendas e gera crescimento.",
     features: [
       "Design responsivo e moderno",
       "Uso das mais avançadas tecnologias",
@@ -240,22 +239,34 @@ export const serviceCards: ServiceCardProps[] = [
     ],
   },
   {
-    image: "/images/serviceCard/ads.jpeg",
-    title: "SEO & Google Ads",
+    image: "/images/serviceCard/financeiro.png",
+    title: "Consultoria Financeira",
     description:
-      "Apareça no Google, atraia os clientes certos e aumente suas vendas com SEO e anúncios eficazes.",
+      "Tenha uma gestão financeira estratégica que mapeie o fluxo de caixa, orienta decisões com dados gerenciais, aumentando o lucro e reduzindo custos desnecessários.",
     features: [
-      "SEO Técnico e de Conteúdo",
-      "Campanhas no Google Ads de Alta Conversão",
-      "Estratégias Personalizadas",
-      "Relatórios e Acompanhamento Mensal",
+      "Design responsivo e moderno",
+      "Uso das mais avançadas tecnologias",
+      "Performance otimizada para carregamento ágil",
+      "Suporte e manutenção inclusos",
+    ],
+  },
+  {
+    image: "/images/serviceCard/web.jpeg",
+    title: "Criação de Website + SEO",
+    description:
+      "Crie um site como portal digital do seu negócio, fortalecendo a credibilidade da sua marca e potencializando resultados em plataformas de venda com SEO e Google Ads.",
+    features: [
+      "Design responsivo e moderno",
+      "Uso das mais avançadas tecnologias",
+      "Performance otimizada para carregamento ágil",
+      "Suporte e manutenção inclusos",
     ],
   },
   {
     image: "/images/serviceCard/meta.jpeg",
     title: "Marketing Digital & Redes Sociais",
     description:
-      "Engaje seu público, aumente sua presenca digital e gere resultados.Esteja onde seu pulico se encontra",
+      "Engaje seu público alvo, aumente sua presenca nas midias sociais e gere resultados.Esteja onde seu pulico se encontra e deixe sua marca.",
     features: [
       "Gestão e Monitoramento de Redes Sociais",
       "Planejamento Estratégico de Conteúdo",
@@ -277,26 +288,14 @@ export const serviceCards: ServiceCardProps[] = [
   },
   {
     image: "/images/serviceCard/consultoria.jpeg",
-    title: "Consultoria e Automação Digital",
+    title: "Consultoria &  Automação Digital",
     description:
-      "Analise e Automatização de sistemas digitais para melhorar eficiência, agilizar tarefas e otimizar atendimento ao cliente",
+      "Analisamos e automatizamos sistemas digitais para aumentar eficiência, reduzir custos e otimizar o atendimento ao cliente, com desenvolvimento de aplicativos sob medida quando necessário.",
     features: [
       "Diagnóstico completo de sistemas digitais",
       "Redução de custos operacionais",
       "Automação de respostas instantâneas",
       "Identificação de gargalos e melhorias",
-    ],
-  },
-  {
-    image: "/images/serviceCard/app.jpeg",
-    title: "Criação de Aplicativo",
-    description:
-      "Criamos aplicativos personalizados baseados na sua ideia para transformar conceitos em soluções digitais reais",
-    features: [
-      "Desenvolvimento exclusivo e sob medida",
-      "Uso de tecnologias modernas e escaláveis",
-      "Suporte durante todas fases do projeto",
-      "Segurança, privacidade e proteção criativa",
     ],
   },
 ];

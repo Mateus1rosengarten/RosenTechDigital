@@ -1,8 +1,8 @@
-import { CheckCircle, XCircle, Info } from 'lucide-react';
-import React, { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import Button from '../ui/Button';
-import { PlanCardProps } from '../../data/types';
+import { CheckCircle, XCircle, Info } from "lucide-react";
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import Button from "../ui/Button";
+import { PlanCardProps } from "../../data/types";
 
 const PlanCard: React.FC<PlanCardProps> = ({
   title,
@@ -27,11 +27,15 @@ const PlanCard: React.FC<PlanCardProps> = ({
       </h3>
 
       <div className="mb-4 text-center">
+        <span className="sm:text-md block font-varela text-sm">
+          A partir de:
+        </span>
         {oldPrice && (
           <span className="sm:text-md block font-varela text-sm text-muted-light line-through">
             {`R$${oldPrice}/mês`}
           </span>
         )}
+
         <span className="text-md font-varela font-extrabold transition-colors duration-default group-hover:text-brand sm:text-xl">
           R$
         </span>
@@ -45,7 +49,10 @@ const PlanCard: React.FC<PlanCardProps> = ({
 
       <ul className="mb-6 space-y-3 font-inter">
         {featuresIncluded.map((feature, index) => (
-          <li key={feature.title} className="relative flex items-start gap-2 text-background">
+          <li
+            key={feature.title}
+            className="relative flex items-start gap-2 text-background"
+          >
             <CheckCircle className="mt-1 h-4 w-4 flex-shrink-0 text-brand" />
 
             <p className="m-0 text-sm leading-snug">
@@ -78,7 +85,10 @@ const PlanCard: React.FC<PlanCardProps> = ({
         ))}
 
         {featuresNotIncluded?.map((feature) => (
-          <li key={feature} className="flex items-start gap-2 text-muted-light line-through">
+          <li
+            key={feature}
+            className="flex items-start gap-2 text-muted-light line-through"
+          >
             <XCircle className="mt-1 h-4 w-4 flex-shrink-0 text-muted-light" />
             <span className="text-sm">{feature}</span>
           </li>
@@ -86,12 +96,15 @@ const PlanCard: React.FC<PlanCardProps> = ({
       </ul>
 
       <Button customClass="!w-full hover:scale-zoom">
-        <span>ASSINE ESSE PLANO</span>
+        <span>FECHE UM ORCAMENTO</span>
       </Button>
 
       <ul className="mt-4 space-y-1 p-2 font-inter text-xs text-muted-light">
         <li>*Contrato mínimo de 8 meses</li>
-        <li>*Fale conosco para incluir algum serviço extra e personalizar seu plano</li>
+        <li>
+          *Fale conosco para incluir algum serviço extra e personalizar seu
+          plano
+        </li>
       </ul>
     </motion.div>
   );
@@ -105,6 +118,6 @@ const cardVariants = {
     opacity: 1,
     y: 0,
     scale: 1,
-    transition: { duration: 0.6, ease: 'easeOut' as any },
+    transition: { duration: 0.6, ease: "easeOut" as any },
   },
 };
